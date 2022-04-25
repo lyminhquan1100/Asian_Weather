@@ -1,0 +1,109 @@
+.Box-cha{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 10px;
+     box-sizing: inherit; 
+     margin-bottom: 10px; 
+     padding: 0 20px; 
+     box-sizing: inherit; 
+     line-height: 1.6em; 
+     background-color: white;
+     margin-top: 20px;
+}
+.Box-cha:nth-child(1){
+    margin-top: 0;
+}
+.box-con{
+    display: flex;
+}
+Card.Body{
+    padding: 0 8rem;
+}
+.hourly-card-nfl-header {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    color: #1f1f1f;
+    background-color: #fff;
+    padding: 16px 14px 14px 12px;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    border-radius: 2px;
+}
+
+.hourly-card-nfl-header .date {
+    min-width: 52px;
+    font-size: 20px;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+.hourly-card-nfl-header .date .sub {
+    color: #8b8b8b;
+    font-weight: 400;
+}
+
+.hourly-card-nfl-header .date span {
+    display: block;
+}
+
+.hourly-card-nfl-header .icon-two {
+    width: 77px;
+    height: 77px;
+    margin-right: 8px;
+}
+
+.hourly-card-nfl-header .temp {
+    white-space: nowrap;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 1.08;
+    width: 48px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.hourly-card-nfl-header .real-feel {
+    font-size: 20px;
+    font-weight: 500;
+    color: #878787;
+    margin-right: 8px;
+}
+
+.hourly-card-nfl-header .phrase {
+    display: none;
+    font-size: 18px;
+    line-height: 1.22;
+}
+
+.hourly-card-nfl-header .precip {
+    font-size: 20px;
+    font-weight: 700;
+    color: #878787;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-right: 8px;
+    width: 50px;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.hourly-card-nfl-header .arrow {
+    fill: #000;
+}
+
+.icon-chevron {
+    transition: transform .2s;
+}
+
+.precip img {
+    height: 24px;
+    margin-right: 6px;
+}
+
+.forecast-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 24px;
+    flex-grow: 1;
+}

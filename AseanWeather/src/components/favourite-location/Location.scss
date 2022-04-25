@@ -1,0 +1,43 @@
+.featured-locations .featured-location {
+    margin-bottom: 12px;
+    height: 36px;
+   
+}
+.favourite-wrap{
+    justify-content: center;
+}
+.favourite-item{
+    margin-right: 12px;
+}
+.recent-location-item {
+    color: #313131;
+    width: 100%;
+    padding: 2px 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    background: rgba(243, 242, 242, 0.7);
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    text-decoration: none;
+}
+
+.recent-location-item .recent-location-name {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    margin-right: 32px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

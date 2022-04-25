@@ -1,0 +1,103 @@
+.footer-container {
+    background-color:#ffffff; /* Dành cho các trình duyệt không hỗ trợ gradient*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  }
+  
+
+  .footer-subscription > p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+  }
+  
+  .footer-subscription-heading {
+    margin-bottom: 24px;
+    font-size: 24px;
+  }
+  
+  .footer-subscription-text {
+    margin-bottom: 24px;
+    font-size: 20px;
+  }
+ 
+  .logApiWeather{
+    width: 112px;
+    height: 58px;
+  }
+  .social-media {
+    max-width: 1000px;
+    width: 100%;
+  }
+  
+  .social-media-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    padding: 10px 0;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 240px;
+  }
+  
+  .social-logo {
+    color: #353b48;
+    justify-self: start;
+    margin-left: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .website-rights {
+    color: #353b48;
+ 
+  }
+  
+  @media screen and (max-width: 820px) {
+    .footer-links {
+      padding-top: 2rem;
+    }
+  
+    .footer-input {
+      width: 100%;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  
+    .social-media-wrap {
+      flex-direction: column;
+    }
+    .logApiWeather{
+      width: 60px;
+      height: 30px;
+    }
+    .website-rights{
+      font-size: 12px;
+    }
+   
+    .social-logo div span{
+        font-size: 16px;
+    }
+    .social-logo img{
+      width: 25px;
+    }
+  }
+  
+  @media only screen and (max-width: 420px) {
+
+  }
+  

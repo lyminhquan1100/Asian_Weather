@@ -1,0 +1,119 @@
+.main-sidebar{
+    width: 20%;
+    background-color: #ffff;
+    min-height: 650px ;
+}
+.logo-wrap{
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+    padding-left: 30px;
+}
+.text-logo span{
+    color: #54667a;
+    font-size: 20px;
+}
+.black-text{
+    color: #54667a;
+}
+.white-text{
+    color:white;
+}
+.btn-main-item{
+    padding: 10px 0;
+    padding-left: 30px;
+}
+.is-active ,.btn-main-item:hover{
+    background-color: #edf1f5;
+    cursor: pointer;
+}
+.btn-main-text i{
+    padding-right: 10px;
+}
+.admin-logout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;box-shadow: 0 4px 6px #edf1f5;
+}
+.admin-logout i{
+    margin-right: 6px;
+}
+
+.admin-logout span,.admin-logout i{
+    color: white;
+}
+
+//main dashboard
+.main-dashboard-container{
+    width: 80%;
+    float: right;
+    min-height: 600px;
+    background: linear-gradient(to top, #edf1f5 0, #dfe4ea 30%, #f1f2f6 100%);
+}
+
+//Header
+.header-dashboard{
+    float: right;
+    height: 60px;
+    width: 100%;
+    background-color: #3d3d3d;
+}
+.wrap-main-header{
+    margin-right: 30px;
+    margin-top: 18px;
+}
+.user-admin-icon{
+    margin:  0 6px;
+}
+
+//Home Main
+.home-main{
+    width: 100%;
+    height: 540px;
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(https://static.pexels.com/photos/33972/pexels-photo.jpg)  top center;
+    background-size: cover;
+  }
+  
+  //user-table
+  .content-users{
+      margin: 80px 0;
+  }
+  .total-text{
+    margin: 15px 0;
+  }
+  .table-user thead tr th:nth-child(1){
+    width: 25%;
+  }
+  .table-user thead tr th:nth-child(4){
+    width: 20%;
+  }
+  .table-user thead tr th{
+    width: 25%;
+  }
+  .table-user th,  .table-user td{
+      text-align: center;
+  }
+  .page-link{
+      color: rgb(49, 49, 49);
+  }
+  .page-link:hover{
+      color: black !important;
+  }
+  .paging{
+      margin-top: 20px;
+      display: flex;
+      align-items: center;
+      float: right;
+  }
+  
+ 
